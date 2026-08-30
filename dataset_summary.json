@@ -1,0 +1,37 @@
+{
+  "dynmem_bench_base": 640,
+  "out_of_domain_frozen_policy": 160,
+  "human_written_subset": 100,
+  "multi_turn_reuse_subset": 180,
+  "real_format_variant": 120,
+  "longmemeval_filtered_ids": 240,
+  "base_non_answerable": 496,
+  "base_by_type": {
+    "PMH": 240,
+    "ACH": 170,
+    "PAF": 130,
+    "AIIL": 100
+  },
+  "base_by_difficulty": {
+    "easy": 160,
+    "medium": 234,
+    "hard": 246
+  },
+  "base_by_scenario": {
+    "workplace": 128,
+    "government": 128,
+    "sports": 128,
+    "technology": 128,
+    "academic": 128
+  },
+  "base_dialogue_turns": {
+    "min": 6,
+    "max": 23,
+    "avg": 15.03,
+    "by_difficulty_min": {
+      "easy": 6,
+      "medium": 13,
+      "hard": 21
+    }
+  }
+}
